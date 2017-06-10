@@ -24,8 +24,7 @@ jar {
 }
 
 task run(type: JavaExec, dependsOn: classes) {
-    main = 'org.testng.TestNG'
-    args = ['build/resources/main/testng.xml'].toList()
+    main = 'Guru99'
     classpath configurations.runtime
     classpath sourceSets.main.output
 }
