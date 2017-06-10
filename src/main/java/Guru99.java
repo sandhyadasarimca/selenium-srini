@@ -26,7 +26,7 @@ public class Guru99 {
 		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[11]/td[2]/input"))
 				.sendKeys("1234567890");
 		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[12]/td[2]/input"))
-				.sendKeys("syamhh@gmail.com");
+				.sendKeys("syaggmhh@gmail.com");
 		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[13]/td[2]/input")).sendKeys("vgfjy");
 		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[14]/td[2]/input[1]")).click();
 		String name = driver.findElement(By.xpath("")).getText();
